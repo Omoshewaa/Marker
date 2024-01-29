@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page</title>
+        <meta charset="utf-8">
+        <script src="app.js"></script>
+        <noscript>javascript</noscript>
+        <style>
+           body{
+               padding: 0px;
+               margin: 0px;
+           }
+           .mdf{
+               background-color: navy;
+               background-size: cover;
+               width: auto;
+               height: 1000px;
+               background-repeat: no-repeat; 
+           }
+           .line{
+               width: auto;
+           }
+           .spp{
+               width: auto;
+           }
+           
+        </style>
+    </head>
+    <body>
+        <section class="mdf">
+            <div class="container" style="justify-content: center;">
+                <div class="row"  style="text-align: center; padding: 20px; color: white; margin:30px 300px; ">
+                    <h2>Registration form</h2>
+                    <p>Please fill out this form with the required information</p>
+                </div>
+            </div>
+                    <div class="container">
+                        <div class="row" style="color: white; margin-left: 50px; padding: 10px; text-align: center">
+                     <form action="\" method="POST">
+                            <label style="padding-right: 250px">Enter Your First Name:</label>
+                            <br/><input type="text" name="username" id="username" style="width: 400px;"><br/>
+                            <label style="padding-right: 250px">Enter Your Last Name:</label>
+                            <br/><input type="text" name="username" id="username" style="width: 400px;"><br/>
+                            <label style="padding-right: 290px">Enter Your Email:</label>
+                           <br/><input type="email" name="email" id="email" style="width: 400px;"><br/>
+                            <label style="padding-right: 250px">Create a New Password:</label>
+                            <br/><input type="text" name="username" id="username" style="width: 400px;"><br/>
+                        </form>
+                </div>
+            </div>
+            <div class="container">
+                    <div class="row" style="color: white; margin-left: 50px; padding: 10px;">
+                        <hr class="line" style="width: 450px">
+                        <h5 style="padding-left: 420px; margin-bottom: 20px">Account type(required)</h5><br/>
+                        <form action="\" method="POST">
+                        
+                            <div class="shift" style="padding-left: 420px">
+                            <input type="radio" name="animal" value="Personal"/>
+                            <label>Personal</label><br>
+                            </div>
+                            <div class="shift"style="padding-left: 420px; padding-top: 10px; padding-bottom; 30pxs">
+                            <input type="radio" name="animal" value="Business"/>
+                            <label>Business</label>
+                            </div>
+                            
+                            <div class="center" style="text-align: center">
+                            <hr class="spp">
+                            <h2>Upload a profile picture:</h2>
+                                <button>Choose file</button>
+                                <input type="text" name="file" placeholder="No file chosen" style="background-color: black;"/>
+                                <h2>Input your age(years):</h2>
+                                <input type="text" name="username" id="username" style="background-color: black;"/>
+                                <h2>How did you hear about us?</h2>
+                                <select name="gender" id="gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <h2>Provide a bio:</h2>
+                                <textarea wrap="virtual" name="comments" placeholder="I like coding on the beach..." rols="3" cols="30" maxlength="100">
+                       </textarea><br/>
+                       <input type="checkbox" name="I accept the" value="I accept the"/>
+                       <label>I accept the<a href="#" style="color: blue">hello</a></label><br/>
+                       </div>
+                       <br/>
+                       <input type="submit" name="submit" style="background-color: blueviolet; margin-left: 600px;"/>
+                                </form>
+                      </div>
+                        </div>
+                </section>
+    </body>
+</html>

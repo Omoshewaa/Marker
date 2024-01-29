@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#marker{
+    justify-content: center;
+}
+.pt{
+    display: flex;
+    justify-content: center;
+}
+.redbr{
+    width: 50px;
+    padding: 10px;
+    background-color: red;
+    border-right: 4px solid black;
+    height: 10px;
+}
+.lrbr{
+    width: 4px;
+    padding: 10px 2px;
+    background-color: rgba(255, 0, 0, 0.192);
+    border-right: 4px solid black;
+    height: 10px;
+}
+.lr{
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.192);
+    height: 10px;
+}
+.red{
+    width: 10px;
+    padding: 10px;
+    background-color: red;
+    height: 10px;
+}
+
+#mv{
+    justify-content: center;
+}
+.pta{
+    display: flex;
+    justify-content: center;
+}
+.greenbr{
+    width: 50px;
+    padding: 10px;
+    background-color:green;
+    border-right: 4px solid black;
+    height: 10px;
+}
+.prbr{
+    width: 4px;
+    padding: 10px 2px;
+    background-color: rgba(51, 255, 0, 0.192);
+    border-right: 4px solid black;
+    height: 10px;
+}
+.lra{
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(0, 255, 106, 0.192);
+    height: 10px;
+}
+.green{
+    width: 10px;
+    padding: 10px;
+    background-color: green;
+    height: 10px;
+
+}
+#mva{
+    justify-content: center;
+}
+.ptb{
+    display: flex;
+    justify-content: center;
+}
+.bluebr{
+    width: 50px;
+    padding: 10px;
+    background-color:blue;
+    border-right: 4px solid black;
+    height: 10px;
+}
+.trbr{
+    width: 4px;
+    padding: 10px 2px;
+    background-color: rgba(3, 29, 85, 0.192);
+    border-right: 4px solid black;
+    height: 10px;
+}
+.yra{
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(0, 60, 255, 0.411);
+    height: 10px;
+}
+.blue{
+    width: 10px;
+    padding: 10px;
+    background-color: blue;
+    height: 10px;
+}
